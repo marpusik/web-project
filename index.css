@@ -42,14 +42,15 @@
 .section__wrap div {
   max-width: 540px;
 }
-.section__wrap div {
-  max-width: 540px;
+.section__wrap img {
+  max-height: 234px;
 }
 h1 {
   font-weight: 500;
   font-size: 48px;
   line-height: 79px;
   color: #000000;
+  margin-top: -45px;
 }
 p {
   font-weight: 400;
@@ -62,14 +63,25 @@ p {
 }
 .btn {
   margin-top: 60px;
+  margin-bottom: 146px;
   width: 225px;
   height: 65px;
-  left: 975px;
-  top: 482px;
   background: #34547A;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
 }
-.about {
+.about{
+  max-width: 540px;
+  text-align: center;
+  margin: 120px auto 100px;
 }
+.about container {
+  background: #E5E5E5;
+  }
 .portfolio {
 }
 .portfolio__list {
