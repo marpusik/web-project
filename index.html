@@ -23,6 +23,7 @@
         <a href="#" class="nav__item">ПРОЦЕСС</a>
         <a href="#" class="nav__item">КОНТАКТЫ</a>
       </nav>
+      <span class="brg"><img class="" src="https://cdn4.iconfinder.com/data/icons/navigation-40/24/hamburger-menu-1024.png" alt=""></span>
     </div>
   </div>
 </header>
@@ -30,11 +31,11 @@
   <div class="container">
     <div class="section__wrap">
       <img class="" src="img/section__img.png" alt="">
-      <div>
+      <div class="top__text">
         <h1>Дизайн и верстка</h1>
         <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной
           "рыбой" для текстов на латинице с начала XVI века.</p>
-        <button class="btn">НАПИСАТЬ МНЕ</button>
+        <button class="btn"><a href="#">НАПИСАТЬ МНЕ</a></button>
       </div>
     </div>
   </div>
@@ -49,17 +50,17 @@
 <section class="portfolio">
   <div class="container">
     <ul class="portfolio__list">
-      <li class="portfolio__item"><img class="" src="" alt="">
+      <li class="portfolio__item"><img class="" src="img/portfolio.svg" alt="">
         <p><span>40+</span><br>проектов</p></li>
-      <li class="portfolio__item"><img class="" src="" alt="">
+      <li class="portfolio__item"><img class="" src="img/portfolio.svg" alt="">
         <p><span>40+</span><br>проектов</p></li>
-      <li class="portfolio__item"><img class="" src="" alt="">
+      <li class="portfolio__item"><img class="" src="img/portfolio.svg" alt="">
         <p><span>40+</span><br>проектов</p></li>
-      <li class="portfolio__item"><img class="" src="" alt="">
+      <li class="portfolio__item"><img class="" src="img/portfolio.svg" alt="">
         <p><span>40+</span><br>проектов</p></li>
-      <li class="portfolio__item"><img class="" src="" alt="">
+      <li class="portfolio__item"><img class="" src="img/portfolio.svg" alt="">
         <p><span>40+</span><br>проектов</p></li>
-      <li class="portfolio__item"><img class="" src="" alt="">
+      <li class="portfolio__item"><img class="" src="img/portfolio.svg" alt="">
         <p><span>40+</span><br>проектов</p></li>
     </ul>
   </div>
@@ -78,23 +79,23 @@
 <section class="jobs">
   <div class="container">
     <h2>Как я работаю</h2>
-    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной
-      "рыбой" для текстов на латинице с начала XVI века.</p>
-    <iframe width="943" height="480" src="https://www.youtube.com/embed/jfKfPfyJRdk"
-            title="lofi hip hop radio - beats to relax/study to" frameborder="0"
+    <p>Lorem Ipsum&nbsp;&mdash; это текст-&laquo;рыба&raquo;, часто используемый в&nbsp;печати и&nbsp;вэб-дизайне. Lorem
+      Ipsum является стандартной &laquo;рыбой&raquo; для текстов на&nbsp;латинице с&nbsp;начала XVI&nbsp;века.</p>
+    <iframe width="320" height="560" src="https://www.youtube.com/embed/5WRSWwmPn40"
+            title="Чем Vue лучше React? #shorts" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
   </div>
 </section>
 <section class="images">
-  <img class="" src="img/images.png" alt="">
-  <img class="" src="img/images.png" alt="">
-  <img class="" src="img/images.png" alt="">
-  <img class="" src="img/images.png" alt="">
-  <img class="" src="img/images.png" alt="">
-  <img class="" src="img/images.png" alt="">
-  <img class="" src="img/images.png" alt="">
-  <img class="" src="img/images.png" alt="">
+  <div><img class="" src="img/images.png" alt=""></div>
+  <div><img class="" src="img/images.png" alt=""></div>
+  <div><img class="" src="img/images.png" alt=""></div>
+  <div><img class="" src="img/images.png" alt=""></div>
+  <div><img class="" src="img/images.png" alt=""></div>
+  <div><img class="" src="img/images.png" alt=""></div>
+  <div><img class="" src="img/images.png" alt=""></div>
+  <div><img class="" src="img/images.png" alt=""></div>
 </section>
 <section class="company">
   <div class="container">
@@ -107,8 +108,8 @@
 <section class="email">
   <div class="container">
     <h2>Хотите веб-сайт?</h2>
-    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной
-      "рыбой" для текстов на латинице с начала XVI века.</p>
+    <p>Lorem Ipsum&nbsp;&mdash; это текст-&laquo;рыба&raquo;, часто используемый в&nbsp;печати и&nbsp;вэб-дизайне. Lorem Ipsum является стандартной
+      &laquo;рыбой&raquo; для текстов на&nbsp;латинице с&nbsp;начала XVI века.</p>
     <div>
       <input type="text" id="name" placeholder="Ваше имя">
       <input type="email" id="name2" placeholder="Ваше email">
@@ -116,16 +117,20 @@
     <div>
       <textarea id="about" placeholder="Сообщение"></textarea>
     </div>
-    <button>ОТПРАВИТЬ</button>
+    <button class="btn">ОТПРАВИТЬ</button>
   </div>
 </section>
 <footer class="footer">
   <div class="container">
-    <h4>Иванов Иван</h4>
-    <p>(с) 2018. Все права защищены.</p>
-    <img class="social" src="img/social.svg" alt="">
-    <img class="social" src="img/social.svg" alt="">
-    <img class="social" src="img/social.svg" alt="">
+   <div class="footer__wrap">
+     <h4>Иванов Иван</h4>
+     <p>(с) 2018. Все права защищены.</p>
+   </div>
+    <div class="footer__box">
+      <img class="social" src="img/social.svg" alt="">
+      <img class="social" src="img/social.svg" alt="">
+      <img class="social" src="img/social.svg" alt="">
+    </div>
   </div>
 </footer>
 </body>
